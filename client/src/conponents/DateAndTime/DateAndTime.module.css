@@ -1,0 +1,11 @@
+.time {
+    width:20%;
+    font-size: 18px;
+    padding:10px;
+}
+.time > div {
+    color: #d3c348;
+}
+.time div:nth-child(3){
+    color: #acacac;
+}
