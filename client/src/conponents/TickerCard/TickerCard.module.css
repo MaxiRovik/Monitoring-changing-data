@@ -1,0 +1,35 @@
+.cardWrapperEven{
+    display: flex;
+    flex-direction: row;
+    width:90%;
+    height:14%;
+    color: white;
+    background-color: rgba(11, 11, 11, 0.57);
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    margin-top: 14px;
+    box-shadow: 2px 3px 4px #fff4f4;
+}
+
+.cardWrapperOdd {
+    background-color: rgba(0, 0, 0, 0.81);
+    box-shadow: 1px 2px 3px #fff4f4;
+}
+
+.cardWrapperEven  h2 {
+    width:30%;
+    font-size: 30px;
+    padding:7px;
+    color: rgba(0, 199, 202, 0.91);
+}
+
+
+.cardWrapperEven:hover{
+    cursor: pointer;
+    transform: translate(1px,2px) scale(1.05);
+}
+.cardWrapperEven:active{
+    box-shadow: 3px 5px 3px rgba(238, 56, 40, 0.92);
+}
+
+

@@ -9,6 +9,6 @@ const TickerName = ({data,companyName }) => {
             </div>
         )
 
-}
+};
 
 export default TickerName

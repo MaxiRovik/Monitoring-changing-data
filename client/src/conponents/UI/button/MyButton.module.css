@@ -1,11 +1,12 @@
 .myBtn {
+    width: 10%;
     padding: 5px 6px 5px;
     color: #d7edf0;
     font-size: 14px;
     background: #4aa84f;
     border: 1px solid #e6f2ef;
     cursor: pointer;
-    margin: 30px 10px auto 25px;
+    margin: 35px 15px auto 15px;
     height:30px;
     border-radius: 5px;
     box-shadow: 4px 3px 5px #41934d;

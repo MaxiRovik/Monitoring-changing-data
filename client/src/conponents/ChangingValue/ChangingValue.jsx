@@ -2,6 +2,7 @@ import React from 'react';
 import cl from './ChangingValue.module.css'
 import ArrowUp from "../UI/arrows/ArrowUP";
 import ArrowDown from "../UI/arrows/ArrowDown";
+
 const ChangingValue = ({data}) => {
 
     const rootClasses = [cl.percent];

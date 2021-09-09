@@ -13,7 +13,7 @@ const tickers = [
   'MSFT', // Microsoft
   'AMZN', // Amazon
   'FB', // Facebook
-  'TSLA', // Tesla
+  'TSLA' // Tesla
 ];
 
 function randomValue(min = 0, max = 1, precision = 0) {
@@ -64,13 +64,14 @@ const socketServer = io(server, {
   cors: {
     origin: "*",
   }
-});
+});cd
 
 app.get('/', function(req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
 socketServer.on('connection', (socket) => {
+
   socket.on('start', () => {
     trackTickers(socket);
   });

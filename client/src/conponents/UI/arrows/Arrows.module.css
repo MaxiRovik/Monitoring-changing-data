@@ -8,9 +8,9 @@
 .Up {
     position: absolute;
     top:-3px;
-    left:-8px;
-    width: 15px;
-    height: 15px;
+    left: -7px;
+    width: 12px;
+    height: 12px;
     border-top: 6px solid #dbdbdb;
     border-right: 6px solid #dbdbdb;
     border-radius: 4px;
@@ -21,9 +21,9 @@
     position: absolute;
     border-radius: 4px;
     top:3px;
-    left:-8px;
-    width: 15px;
-    height: 15px;
+    left:-7px;
+    width: 12px;
+    height: 12px;
     border-top: 6px solid #dbdbdb;
     border-right: 6px solid #dbdbdb;
     transform: rotate(135deg)
@@ -32,7 +32,7 @@
 
     background-color: #dbdbdb;
     border-radius: 4px;
-    width:6px;
+    width:5px;
     height:20px;
     z-index: 10;
 }
